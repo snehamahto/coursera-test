@@ -1,0 +1,46 @@
+h1{
+    color:rebeccapurple;
+    font-size: 30px;
+    text-align:center;
+}
+#top,#bottom{
+    color:rgb(194, 206, 194);
+}
+.nav:hover,.nav:active{
+    color:red;  
+}
+.nav:visited{
+    color:blue;
+}
+h2{
+    color:cornflowerblue;
+    background-color: darkgray;
+    font-size:25px;
+}
+div li:nth-child(odd){
+    color:darkolivegreen;
+    background-color: lightsalmon;
+    font-size: 22px;
+    list-style: none;
+    
+}
+div li:nth-child(odd):hover{
+    color:rgb(40, 58, 9);
+    background-color: rgb(252, 170, 137);
+    font-size: 24px;
+    list-style: none;
+    cursor:pointer;
+}
+div li:nth-child(even){
+    color:darkolivegreen;
+    background-color:lightgray;
+    font-size: 22px;
+    list-style: none;
+}
+div li:nth-child(even):hover{
+    color:rgb(40, 58, 9);
+    background-color:rgb(255, 255, 255);
+    font-size: 24px;
+    list-style:none;
+    cursor:pointer;
+}
