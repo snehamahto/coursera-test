@@ -4,43 +4,45 @@ h1{
     text-align:center;
 }
 #top,#bottom{
-    color:rgb(194, 206, 194);
+    color:green;
+    text-decoration: none;
 }
-.nav:hover,.nav:active{
+#top:hover, #bottom:hover,#top:active,#bottom:active{
     color:red;  
 }
-.nav:visited{
-    color:blue;
-}
 h2{
-    color:cornflowerblue;
+    color:rgb(46, 46, 122);
     background-color: darkgray;
     font-size:25px;
+    width:2000px;
 }
-div li:nth-child(odd){
+div li{
+    list-style: none;
+}
+div li:nth-child(odd):link, div li:nth-child(odd):visited{
+    text-decoration: none;
     color:darkolivegreen;
     background-color: lightsalmon;
     font-size: 22px;
-    list-style: none;
+    width:2000px;
     
 }
-div li:nth-child(odd):hover{
+div li:nth-child(odd):hover, div li:nth-child(odd):active{
     color:rgb(40, 58, 9);
     background-color: rgb(252, 170, 137);
     font-size: 24px;
-    list-style: none;
     cursor:pointer;
 }
-div li:nth-child(even){
+div li:nth-child(even):link, div li:nth-child(even):visited{
+    text-decoration: none;
     color:darkolivegreen;
     background-color:lightgray;
     font-size: 22px;
-    list-style: none;
+    width:2000px;
 }
-div li:nth-child(even):hover{
+div li:nth-child(even):hover, div li:nth-child(even):active{
     color:rgb(40, 58, 9);
     background-color:rgb(255, 255, 255);
     font-size: 24px;
-    list-style:none;
     cursor:pointer;
 }
